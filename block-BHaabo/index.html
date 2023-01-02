@@ -1,0 +1,108 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Blog Dashboard</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <span class="altcampus-logo">
+          <img src="assets/icons/altcampus-logo.svg" alt="altcampus logo" />
+        </span>
+        <ul class="navigation-links">
+          <li><img src="assets/icons/bell.svg" alt="notification" /></li>
+
+          <li>Sarah Jone <img src="assets/icons/user.svg" alt="user" /></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container main-block">
+        <aside>
+          <ul>
+            <li>
+              <img src="assets/icons/dashboard.svg" alt="notification" />
+              Dashboard
+            </li>
+            <li class="active">
+              <img src="assets/icons/article.svg" alt="notification" />
+              Articles
+            </li>
+            <li>
+              <img src="assets/icons/analytics.svg" alt="notification" />
+              Analytics
+            </li>
+            <li>
+              <img src="assets/icons/inbox.svg" alt="notification" />
+              Inbox
+            </li>
+            <li>
+              <img src="assets/icons/setting.svg" alt="notification" />
+              Settings
+            </li>
+          </ul>
+
+          <button>
+            <img src="assets/icons/log-out.svg" alt="notification" />
+            Log Out
+          </button>
+        </aside>
+        <article>
+          <figure>
+            <img src="assets/01.png" alt="article header image" />
+          </figure>
+          <h2>Why we are doing AltCampus?</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            velit nostrum nesciunt aliquam, et assumenda ut saepe natus sed
+            voluptatibus distinctio laudantium aperiam, odit quidem excepturi,
+            autem maiores vel laboriosam?et assumenda ut saepe natus sed
+            voluptatibus distinctio laudantium aperiam, odit quidem excepturi,
+            autem maiores vel laboriosam?
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            velit nostrum nesciunt aliquam, et assumenda ut saepe natus sed
+            voluptatibus distinctio laudantium aperiam, odit quidem excepturi,
+            autem maiores vel laboriosam?et assumenda ut saepe natus sed
+            voluptatibus distinctio laudantium aperiam, odit quidem excepturi,
+            autem maiores vel laboriosam?
+          </p>
+
+          <button class="read-more-btn">Read More</button>
+        </article>
+      </div>
+    </main>
+    <footer>
+      <div class="container footer-block">
+        <p>&copy; AltCampus</p>
+        <div class="contact-links">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
