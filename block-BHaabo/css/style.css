@@ -1,0 +1,157 @@
+body {
+  font-family: sans-serif;
+}
+
+/* common classes */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* specific classes */
+header {
+  background-color: #222946;
+  padding: 1em 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.altcampus-logo img {
+  width: 80%;
+}
+
+.navigation-links {
+  display: flex;
+  list-style-type: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1.15rem;
+  align-items: center;
+}
+
+.navigation-links li {
+  margin-left: 1.5em;
+  display: flex;
+  align-items: center;
+}
+
+.navigation-links li img {
+  margin-left: 1em;
+}
+
+li.active {
+  color: #37b667;
+}
+
+.main-block {
+  display: flex;
+  justify-content: space-between;
+  margin: 4em auto;
+}
+
+aside {
+  flex-grow: 1;
+  background-color: #a3caea;
+  padding: 2em 1.5em 1.5em 1.5em;
+  flex-basis: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 0.75em;
+}
+
+aside ul {
+  width: 100%;
+}
+
+aside li,
+aside button {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  font-size: 1.15rem;
+  margin-bottom: 1.5em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 0.5em;
+}
+
+aside button {
+  margin-bottom: 0;
+  background-color: #f2f8fd;
+}
+
+aside li.active {
+  color: #ff7b29;
+  border: 3px solid #ff7b29;
+}
+
+aside li img,
+aside button img {
+  margin-right: 0.85em;
+}
+
+article {
+  background-color: #f2f8fd;
+  flex-grow: 2;
+  margin-left: 2.5em;
+  border-radius: 0.75em;
+  padding: 2em 1.5em 1.5em 1.5em;
+}
+
+article figure {
+  width: 100%;
+  margin: 0 auto;
+  height: 500px;
+}
+
+article figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+article h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0.5em 0;
+}
+
+article p {
+  font-size: 1.05rem;
+  line-height: 1.3;
+  margin-bottom: 1em;
+}
+
+.read-more-btn {
+  border-radius: 0.25em;
+  font-size: 1.15rem;
+  background-color: #37b667;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.9em 3em;
+  box-shadow: 0 5px 15px #cae9dd;
+}
+
+footer {
+  background-color: #222946;
+  padding: 2em 0;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  color: #bcc0d2;
+}
+
+.contact-links i {
+  margin-left: 0.85em;
+  font-size: 1.5rem;
+}
