@@ -1,0 +1,94 @@
+body {
+  font-family: sans-serif;
+}
+
+/* common classes */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* specific classes */
+header {
+  background-color: #222946;
+  padding: 1em 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.altcampus-logo img {
+  width: 80%;
+}
+
+.navigation-links {
+  display: flex;
+  list-style-type: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.15rem;
+}
+
+.navigation-links li {
+  margin-left: 1.5em;
+}
+
+li.active {
+  color: #37b667;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 1.5em 0;
+}
+
+.gallery-container {
+  margin-bottom: 3em;
+}
+
+.gallery-container .row {
+  display: flex;
+
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.gallery-container .row .col {
+  flex-basis: 400px;
+  height: 300px;
+}
+
+.gallery-container .row figure {
+  width: 100%;
+  height: 100%;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #222946;
+  padding: 2em 0;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  color: #bcc0d2;
+}
+
+.contact-links i {
+  margin-left: 0.85em;
+  font-size: 1.5rem;
+}
