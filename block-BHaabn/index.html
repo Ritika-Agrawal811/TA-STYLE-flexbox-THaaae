@@ -1,0 +1,91 @@
+<!-- 
+- Create a gallery using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-1.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Gallery Section</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <span class="altcampus-logo">
+          <img src="assets/altcampus-logo.svg" alt="altcampus logo" />
+        </span>
+        <ul class="navigation-links">
+          <li>Home</li>
+          <li class="active">gallery</li>
+          <li>about</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Gallery</h2>
+      <section class="gallery-container">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <figure>
+                <img src="assets/01.png" alt="gallery image 1" />
+              </figure>
+            </div>
+            <div class="col">
+              <figure>
+                <img src="assets/02.png" alt="gallery image 2" />
+              </figure>
+            </div>
+            <div class="col">
+              <figure>
+                <img src="assets/03.png" alt="gallery image 3" />
+              </figure>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <figure>
+                <img src="assets/04.png" alt="gallery image 4" />
+              </figure>
+            </div>
+            <div class="col">
+              <figure>
+                <img src="assets/05.png" alt="gallery image 5" />
+              </figure>
+            </div>
+            <div class="col">
+              <figure>
+                <img src="assets/06.png" alt="gallery image 6" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-block">
+        <p>&copy; AltCampus</p>
+        <div class="contact-links">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
